@@ -1,0 +1,137 @@
+body{
+    background: #e9e8e8;
+}
+/* siderbar */
+#logoside{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #ff6f00;
+    margin-top: -70px;
+    left: -200px;
+    transition: all 500ms linear;
+}
+#sidebar.active{
+    left: 0;
+}
+#sidebar ul li{
+    color: rgba(230, 230, 230, .9);
+    text-align: center;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    padding: 15px 10px;
+    list-style: none;
+}
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 205px;
+    top: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+#sidebar .toggle-btn:hover{
+    background: #ff6f00;
+}
+#sidebar .toggle-btn span{
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #000;
+}
+/* botones */
+a{
+    font:25px Verdana;
+    text-decoration: none;
+    color: #fff;
+}
+#lista-btn{
+    text-align: center;
+}
+#a1{
+    border: 1px solid #fff;
+    padding: 13px 55px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+#a2{
+    border: 1px solid #fff;
+    padding: 13px 49px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#a3{
+    border: 1px solid #fff;
+    padding: 13px 42px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#a4{
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 13px 58px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    background: #ffa040;
+}
+/* vertabla */
+#imgver{
+    width: 40px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #000;
+    background-color: rgb(4, 160, 38);
+    border-radius: 10px;
+}
+#imgver:hover{
+background: rgb(54, 216, 89);
+}
+/* cajasdetexto */
+#divlabelplatillo-platillo{
+    margin-left: auto;
+    margin-right: auto;
+}
+#divlabelplatillo-precio{
+    margin-left: auto;
+    margin-right: auto;
+}
+#divselectipo{
+    
+    text-align: center;
+}
+#selecttipo{
+    margin-left: auto;
+    margin-right: auto;
+}
+#ae{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+ }
+ h4{
+    margin-top: 30px;
+    text-align: center;
+    font-style: bold;
+    font-family: Verdana;
+}
+/* tabla */
+#tablaplatillos{
+    margin: auto;
+}
